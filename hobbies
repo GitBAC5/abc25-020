@@ -11,10 +11,10 @@
 </div>
 <h2>CAR BRANDS</h2>
 <details> 
-<summary>bmw</summary>
+<summary>BMW</summary>
 <ul>
-<li>bmw
-<li><img src="Images/cars/bmw.jpg"/></li>
+<li>BMW
+<li><img src="Images/cars/BMW.jpg"/></li>
 </li> 
 </ul>
  
@@ -29,10 +29,10 @@
  
             </details>
 <details> 
-<summary>fordm</summary>
+<summary>ford</summary>
 <ul>
-<li>fordm
-<li><img src="Images/cars/fordm.jpg"/></li>
+<li>ford
+<li><img src="Images/cars/ford.jpg"/></li>
 </li> 
 </ul>
  
