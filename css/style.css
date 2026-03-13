@@ -1,76 +1,46 @@
-/* ===== Main Container ===== */
-#divmaincontainer{
-  width: 80%;
-  margin: auto;
-  background: #ffffff;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
-  border-radius: 10px;
-  font-family: "Segoe UI", Arial, sans-serif;
+/*styling divmaincontainer */
+div#divmaincontainer{
+  width:80%;
+  margin:auto;
+/* border:1px solid turquoise;*/
 }
-
-
-/* ===== Site Header ===== */
-#siteheader{
-  width: 100%;
-  height: 150px;
-  background: linear-gradient(135deg, #0d47a1, #2196f3);
-  border-radius: 10px 10px 0 0;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+ 
+/**/
+/*styling the header of the site*/
+header#siteheader{
+  width:100%;
+  height:150px;
+  background-image:linear-gradient(greenyellow,cyan,teal);
+  border:1px solid darkgrey;
+  border-radius:10px 10px 0 0;
 }
-
-
-/* ===== Site Title ===== */
-#sitetitle{
-  font-size: 34px;
-  color: #ffffff;
-  margin: 0;
-  letter-spacing: 1px;
+/*styling site title*/
+h1#sitetitle{
+  font-family:Arial;
+  font-size:32px;
+  color:orange;
+  text-align:center;
+  }
+ 
+/*site motto*/
+span#sitemotto{
+  font-size:18px;
+  font-family:tahoma;
+  font-style:italic;
+  color:blue;
+  text-align:center;
 }
-
-
-/* ===== Site Motto ===== */
-#sitemotto{
-  font-size: 18px;
-  font-style: italic;
-  color: #e3f2fd;
-  margin-top: 5px;
+ 
+/*site navigation*/
+nav#sitenav{
+  width:100%;
+  height:30px;
+  background-image:radial-gradient(greenyellow,cyan);
 }
-
-
-/* ===== Navigation Bar ===== */
-#sitenav{
-  width: 100%;
-  height: 40px;
-  background: linear-gradient(90deg, #1565c0, #42a5f5);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-
-/* ===== Navigation List ===== */
-#ulnav{
-  padding: 0;
-  margin: 0;
-}
-
-
-/* ===== Navigation Items ===== */
-#ulnav > li{
-  display: inline-block;
-  list-style: none;
-  margin: 0 15px;
-  color: white;
-  font-weight: 500;
-  cursor: pointer;
-  transition: 0.3s;
-}
-
-
-/* ===== Hover Effect ===== */
-#ulnav > li:hover{
-  color: #bbdefb;
+ 
+/*navigation elements*/
+ul#ulnav>li{
+  display:inline;
+  list-style-type:none;
+ 
 }
